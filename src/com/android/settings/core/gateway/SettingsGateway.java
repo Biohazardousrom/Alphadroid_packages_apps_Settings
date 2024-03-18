@@ -105,7 +105,6 @@ import com.android.settings.display.NightDisplaySettings;
 import com.android.settings.display.SmartAutoRotatePreferenceFragment;
 import com.android.settings.display.darkmode.DarkModeSettingsFragment;
 import com.android.settings.dream.DreamSettings;
-import com.android.settings.display.RefreshRateSettings;
 import com.android.settings.enterprise.EnterprisePrivacySettings;
 import com.android.settings.fuelgauge.AdvancedPowerUsageDetail;
 import com.android.settings.fuelgauge.batterysaver.BatterySaverScheduleSettings;
@@ -201,6 +200,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.alpha.settings.AlphaSettings;
 import com.alpha.settings.fragments.misc.SmartPixels;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -242,7 +243,6 @@ public class SettingsGateway {
             FirmwareVersionSettings.class.getName(),
             ManageAssist.class.getName(),
             ProcessStatsUi.class.getName(),
-            RefreshRateSettings.class.getName(),
             NotificationStation.class.getName(),
             LocationSettings.class.getName(),
             WifiScanningFragment.class.getName(),
@@ -389,6 +389,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             SleepMode.class.getName(),
             SmartPixels.class.getName(),
+            SecurityHubDashboard.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
