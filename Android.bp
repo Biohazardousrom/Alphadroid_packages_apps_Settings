@@ -72,6 +72,7 @@ android_library {
         "res-product",
         "res-ui",
         "AlphaSettings/res",
+        "SettingsGoogle/res",
     ],
 
     static_libs: [
@@ -126,6 +127,7 @@ android_library {
         "LineagePreferenceLib",
         "vendor.lineage.fastcharge-V1.0-java",
         "SystemUISharedLib",
+        "SettingsGoogle-lib",
         "kotlin-stdlib",
         "kotlinx_coroutines_android",
         "kotlinx_coroutines",
